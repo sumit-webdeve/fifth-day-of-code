@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: chocolate;
+            width: 1200px;
+            height: 400px;
+        }
+        .main1{
+            background-color: orchid;
+            width: 400px;
+            height: 400px;
+            float: left;
+        }
+        .main10{
+            background-color: olive;
+            width: 400px;
+            height: 400px;
+            float: left;
+        }
+        .main1:hover~.main10{
+            background-color: blue;
+        }
+
+        .main:hover.main21{
+            background-color: red
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main1"></div>
+        <div  class="main10"></div>
+        <div  class="main21"></div>
+    </div>
+</body>
+</html>
